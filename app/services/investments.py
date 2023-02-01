@@ -3,7 +3,7 @@ from datetime import datetime
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.config import NULL_VALUE
+from app.core.constants import NULL_VALUE
 from app.models import FinancialBase
 
 

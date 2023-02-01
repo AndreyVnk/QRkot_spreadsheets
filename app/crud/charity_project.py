@@ -4,7 +4,7 @@ from typing import Optional
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.core.config import NULL_VALUE
+from app.core.constants import NULL_VALUE
 from app.crud.base import CRUDBase
 from app.models import CharityProject
 
